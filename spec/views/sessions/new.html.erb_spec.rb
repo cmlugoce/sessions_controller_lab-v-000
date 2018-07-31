@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe "sessions/new.html.erb", type: :view do
+RSpec.describe "sessions/new",:type => :view do
 
 
    it 'has a form with a name field' do
