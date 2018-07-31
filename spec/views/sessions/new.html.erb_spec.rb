@@ -5,7 +5,7 @@ RSpec.describe "sessions/new",:type => :view do
 
    it 'has a form with a name field' do
 
-     expect(response).to have_selector("form")
-		expect(response).to have_field(:name)
+     expect(rendered).to have_selector("form")
+		expect(rendered).to have_field(:name)
 	end
 end
